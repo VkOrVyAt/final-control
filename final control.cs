@@ -8,6 +8,12 @@ namespace Solution
 {
     public class Programm 
     {
+        public static void PrintList(List<string> list)
+        {
+            foreach (string item in list)
+                Console.Write(item + " ");
+        }
+        
         public static List<string> SortArray(string[] array)
         {
             var result = new List<string>();
