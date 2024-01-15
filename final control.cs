@@ -12,6 +12,7 @@ namespace Solution
         {
             foreach (string item in list)
                 Console.Write(item + " ");
+            Console.Write("\n");
         }
 
         public static List<string> SortArray(string[] array)
@@ -23,7 +24,7 @@ namespace Solution
             return result;
         }
 
-        public void Main()
+        public static void Main()
         {
             var test1 = new string[4] {"rere", "ree", "r", "re"};
             var test2 = new string[3] {"", "e", "."};
