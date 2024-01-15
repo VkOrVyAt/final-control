@@ -1,22 +1,18 @@
 using System;
-namespace Program;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Solution
+namespace Solution
 {
-    public static List<string> SortArray(string[] array)
+    public class Programm 
     {
-        var result = new list<string>();
-        foreach(var item in array)
+        public void Main()
         {
-            if (item.Length <= 3)
-                result.Add(item);
+            var test1 = new string[4] {"rere", "ree", "r", "re"};
+            var test2 = new string[3] {"", "e", "."};
+            var test3 = new string[0];
         }
-        return result;
-    } 
-
-    public static void Main()  
-    {
-        var test = new Array[3] {"dsf","sdsdf"};
-        Console.WriteLine(SortArray(test));
     }
 }
